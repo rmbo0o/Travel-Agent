@@ -1,6 +1,5 @@
 ### 📄 README.md for "Travel Agent" Project
 
-Create a file called `README.md` in your `ticket-agent` folder:
 
 
 # ✈️ AI Travel Agent - Smart Flight Search & Alerts
@@ -47,20 +46,20 @@ Installation
 
 cd ticket-agent
 pip install requests python-dotenv
-Configuration
+
 Create .env file:
 
 env
 AIRLABS_API_KEY=your_api_key_here
 EMAIL_ADDRESS=your_email@gmail.com
 EMAIL_PASSWORD=your_app_password
-Run
 
+Run
 python agent.py
 # Choose mode: 1 (Smart) or 2 (Quick)
 📸 Usage Examples
 Smart Mode (Step-by-step)
-text
+
 💬 You: Moscow to Cairo
 📍 Departure city: Moscow
 🎯 Destination city: Cairo
@@ -69,7 +68,7 @@ text
 🔍 Searching flights...
 ✈️ BEST DEAL: Aeroflot → EgyptAir via Istanbul (350 USD)
 Quick Mode (One line)
-text
+
 💬 You: Moscow to Istanbul on 2026-07-15 anas@email.com
 🔍 Searching... ✅ Found 16 real routes!
 📧 Email sent!
